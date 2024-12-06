@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Basket</title>
+    <link rel="icon" href="Assets/New_Project.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-light py-3 border-bottom">
+        <div class="container d-flex justify-content-between align-items-center">
+            <header class="text-center py-3">
+                <img src="Assets/New_Project.png" alt="World Peas Logo" class="logo">
+            </header>
+            
+            <nav>
+                <ul class="list-unstyled d-flex gap-4 mb-0">
+                    <li><a href="#" class="text-dark text-decoration-none">Home</a></li>
+                    <li><a href="#" class="text-dark text-decoration-none">Shop</a></li>
+                    <li><a href="#" class="text-dark text-decoration-none">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="btn btn-outline-dark">Basket</button>
+        </div>
+    </header>
+
+    <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="item-card">
+              <div class="row align-items-center">
+                <div class="col-2">
+                  <img src="Assets/tomato.jpeg" alt="Heirloom Tomato" class="item-img">
+                </div>
+                <div class="col-8">
+                  <h4><strong>Heirloom tomato</strong></h4>
+                  <p class="price-per-kg">$5.99 / kg</p>
+                </div>
+                <div class="col-2 text-end">
+                  <p class="price"><strong>$5.99</strong></p>
+                </div>
+              </div>
+            </div>
+      
+            <div class="item-card">
+              <div class="row align-items-center">
+                <div class="col-2">
+                  <img src="Assets/ginger.jpeg" alt="Organic Ginger" class="item-img">
+                </div>
+                <div class="col-8">
+                  <h4><strong>Organic ginger</strong></h4>
+                  <p class="price-per-kg">$12.99 / kg</p>
+                </div>
+                <div class="col-2 text-end">
+                  <p class="price"><strong>$6.50</strong></p>
+                </div>
+              </div>
+            </div>
+      
+            <div class="item-card">
+              <div class="row align-items-center">
+                <div class="col-2">
+                  <img src="Assets/onion.jpeg" alt="Sweet Onion" class="item-img">
+                </div>
+                <div class="col-8">
+                  <h4><strong>Sweet onion</strong></h4>
+                  <p class="price-per-kg">$2.99 / kg</p>
+                </div>
+                <div class="col-2 text-end">
+                  <p class="price"><strong>$14.95</strong></p>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-md-4">
+            <div class="order-summary">
+              <h4><strong>Order summary</strong></h4>
+                <br>
+              <div class="summary-item">
+                <p>Subtotal</p>
+                <p>$27.44</p>
+              </div>
+              <div class="summary-item">
+                <p>Shipping</p>
+                <p>$3.99</p>
+              </div>
+              <div class="summary-item">
+                <p>Tax</p>
+                <p>$2.00</p>
+              </div>
+              <hr>
+              <div class="summary-item total">
+                <p>Total</p>
+                <p>$33.43</p>
+              </div>
+              <button class="btn btn-success w-100 mt-3">Continue to payment</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </main>
+</body>
+</html>
